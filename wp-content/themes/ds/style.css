@@ -1,0 +1,150 @@
+/*
+Theme Name: DS
+Theme URI: https://ds.org/
+Author: the we team
+Author URI: https://ds.org/
+*/
+
+body {
+    font-family: 'Playfair Display', serif;
+    position: fixed;
+    top: 0;
+    background: #f1f1f1;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+    color: #222;
+}
+
+a, p {
+    color: #222;
+}
+
+a:hover {
+    color: #555;
+    background-color: transparent ! important;
+}
+
+.nav > li > a, .footer_away {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+footer #footer_menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+footer #footer_menu li {
+    display: inline-block;
+}
+
+.footer #footer_menu {
+    position: absolute;
+    top: 0;
+    margin: 20px 0;
+    left: 46%;
+    font-size: 39px;
+}
+
+.navbar-header {
+    position: absolute;
+    top: 0;
+    left: 44%;
+    margin: 32px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.footer_away {
+    position: fixed;
+    right: 27px;
+    bottom: 22px;
+}
+
+.image_imner {
+    width: 420px;
+    height: 40px;
+    background: #333;
+    display: inline-block;
+}
+
+#image_handler {
+    position: fixed;
+    width: 100%;
+    top: 102px;
+    bottom: 102px;
+    text-align: center;
+    left: 0;
+}
+
+.image_inner {
+    width: 320px;
+    height: 396px;
+    display: inline-block;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+#image_handler_holder {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    left: 0;
+}
+
+.inner_slide_class {
+    width: 440px;
+    height: 620px !important;
+    display: inline-block;
+}
+
+#image_handler_holder .no-js .owl-carousel {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+
+
+
+/*img {*/
+    /*max-height: 90%;*/
+    /*max-width: 90%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: auto;*/
+    /*border: 2px solid rgb(44,44,44);*/
+/*}*/
